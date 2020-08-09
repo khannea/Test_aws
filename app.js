@@ -8,5 +8,5 @@ app.get('/', (req, res) => {
 const port = process.env.port || 3000;
 
 app.listen(port, () => {
-  console.log('WAZAAAAAAAAAAaa');
+  console.log(`WAZAAAAAAAAAAaa on port ${port}`);
 });
